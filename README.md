@@ -27,4 +27,9 @@ The primary objective is to develop a machine learning (ML) algorithm capable of
 - **proceduresoccurrences.csv**: Lists all procedures performed on a patient during an episode.
 
 
+## Approaches:  (more detail in repositories )
+
+ ### Decision_Tree 
+ ### Ensemble_learning_LGBM 
+ 
 
