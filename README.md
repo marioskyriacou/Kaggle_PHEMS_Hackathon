@@ -2,8 +2,9 @@
 
 
 
+
+
 ## Competition Info
-Development of machine learning algorithms to predict pediatric sepsis in pediatric intensive care unit
 [Competition Link](https://www.kaggle.com/competitions/phems-hackathon-early-sepsis-prediction/overview)
 
 ## Background on Sepsis
@@ -11,4 +12,19 @@ Sepsis is a life-threatening condition that occurs when the body’s response to
 
 ## Goal of the Competition
 The primary objective is to develop a machine learning (ML) algorithm capable of early detection of sepsis in pediatric patients using retrospective physiological data.
+
+## Files Provided
+
+### Outcome Files
+- **SepsisLabel_(train|test).csv**: Contains the outcome with the column `SepsisLabel` (1 for positive sepsis assessment, 0 for negative).
+
+### Medical Data Files
+- **devices.csv**: Tracks the usage of medical devices during patient PICU episodes. Each record represents a point in time when a specific device was used for a particular patient.
+- **drugexposure.csv**: Contains records of drug administration to patients during their PICU episodes.
+- **measurement_lab.csv**, **measurement_meds.csv**, **measurement_observation.csv**: Contain lab measurements and drug administration data during patient PICU episodes.
+- **observation.csv**: Tracks observations recorded for patients during their PICU stay.
+- **person_demographics_episode.csv**: Contains demographic information about patients.
+- **proceduresoccurrences.csv**: Lists all procedures performed on a patient during an episode.
+
+
 
